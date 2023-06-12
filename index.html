@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo-Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+    <div class="container">
+       <div class="card-left">
+            <div class="main-img">
+               <img src="images/camera-1.jpg" alt="">
+                <img src="images/camera-2.jpg" alt="">
+                <img src="images/camera-3.jpg" alt="">
+                <img src="images/camera-4.jpg" alt="">
+               
+            </div>
+         <div class="image-select">
+           <div class="img  active">
+                <a href="#" data-id="1"><img src="images/camera-1.jpg"></a>
+            </div>
+            <div class="img">
+               <a href="#" data-id="2"><img src="images/camera-2.jpg"></a>
+            </div>
+            <div class="img">
+                <a href="#" data-id="3"><img src="images/camera-3.jpg"></a>
+            </div>
+            <div class="img">
+                <a href="#" data-id="4"><img src="images/camera-4.jpg"></a>
+            </div>
+         </div> 
+        </div> 
+        <div class="card-right">
+            <h2> Fujifilm X100F Camera </h2>
+            <div class="stars">
+                <div class="star-groups">
+                 <ion-icon name="star"></ion-icon>
+                 <ion-icon name="star"></ion-icon>
+                 <ion-icon name="star"></ion-icon>
+                 <ion-icon name="star"></ion-icon>
+                 <ion-icon name="star"></ion-icon>
+                </div>
+                <span>3 Reviews</span>
+            </div>
+            <h4>$40.00   <span>$30.00</span></h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae nulla aspernatur nihil, fugiat ad voluptas dicta consequuntur et quaerat quos facilis voluptatibus maxime dolores sunt ab soluta officia perferendis neque.</p>
+            <div class="form">
+                <div class="form-group">
+                    <label>Color</label>
+                    <select>
+                        <option>Black</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                        <label>Qty</label>
+                    <div class="input-group">
+                        <button class="sub">-</button>
+                        <input type="text" value="1" class="qty">
+                       <button class="add
+                        ">+</button>
+                    </div>
+                </div>
+        </div>
+        <button class="btn-cart">Add Cart</button>
+    </div>
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
